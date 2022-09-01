@@ -1,0 +1,40 @@
+.meny {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+}
+
+body {
+    background-color: black;
+}
+
+.gallerismakryp {
+
+
+
+    display: grid;
+    place-items: center;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+.gallery.img {
+    width: 100%;
+}
+
+
+.gallerismakryp img {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    font-size: 30px;
+    color: blueviolet;
+    text-decoration: none;
+}
+a:hover { 
+    color: greenyellow; 
+    font-size: 40px ;
+    
+}
